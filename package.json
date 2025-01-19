@@ -8,7 +8,7 @@
     "build": "vite build",
     "test": "jest --passWithNoTests",
     "clean": "rimraf dist",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint . -c .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
